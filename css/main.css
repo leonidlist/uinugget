@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Nunito|Quicksand');
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+.centered{
+  text-align: center;
+}
+
+.centered-top-nav{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.top-block{
+  background: url(../img/bgtop.jpg) no-repeat 0 0;
+  /*padding: 20px 50px;*/
+
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.logo{
+  color: #fff;
+  font-family: 'Dosis';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Nunito';
+  letter-spacing: 2px;
+}
+
+nav a:hover{
+  border-bottom: 5px solid white;
+}
+
+nav li{
+  margin-right: 80px;
+}
+
+.active{
+  border-bottom: 5px solid white;
+}
+
+.top-row{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(0,0,0,.5);
+  padding-bottom: 20px;
+}
+
+.top-block-h1{
+  color: #fff;
+  font-weight: bold;
+  /*font-family: 'Dosis';*/
+  font-size: 90px;
+}
+
+.maintext{
+  padding-top: 300px;
+  padding-bottom: 200px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.btn-blue{
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 60px;
+  border-radius: 35px;
+  background-color: #5967b2;
+  transition: 0.5s;
+}
+
+.btn-blue:hover{
+  color: #fff;
+  background-color: rgba(89, 103, 179, .8);
+  transition: 0.5s;
+}
+
+.purple{
+  background-color: #bc7db2;
+}
+
+.purple-block h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: 'Quicksand';
+}
+
+.purple-block p{
+  font-family: 'Dosis';
+  color: #fff;
+  font-size: 30px;
+}
+
+.btn-download{
+  margin-top: 30px;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.fa-download{
+  margin-right: 15px;
+}
+
+.btn-download:hover{
+  color: #fff;
+  background-color: rgba(0,0,0,.3);
+  transition: 0.5s;
+}
+
+.wwd{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.wwd h2{
+  font-family: 'Quicksand';
+}
+
+.grey{
+  color: #b1b0b0;
+}
+
+.btn-blue-brd{
+  margin-top: 50px;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  background: #fff;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 1px solid #35c5f5;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.btn-blue-brd:hover{
+  background: #35c5f5;
+  transition: 0.5s;
+}
+
+.wmn{
+  width: 800px;
+  height: 480px;
+  background: url(../img/woman.jpg);
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.green{
+  background: #45b681;
+  color: #fff;
+}
+
+.fa-lg{
+  font-size: 7em;
+}
+
+.green p{
+  font-size: 20px;
+  font-family: 'Dosis';
+  font-weight: bold;
+}
+
+.pt50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-inner .item img{
+  max-height: 500px;
+  max-width: 100%;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+.mt30 h1{
+  font-family: 'Nunito';
+}
